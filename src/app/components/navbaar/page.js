@@ -1,28 +1,12 @@
 import React from 'react'
 import Buttonpage from '../button/page'
-import { motion } from 'framer-motion'
 
 const Navpage = () => {
-    
   return (
     <div>
-      <motion.div className='flex justify-center items-center lg:space-x-[33vw] space-x-[60vw]'
-      initial={{
-        y:-10
-      }}
-      transition={{
-        type:'spring',
-        stiffness:40
-      }}
-      whileInView={{
-        y:1
-      }}
-      >
+      <div className='flex justify-center items-center lg:space-x-[33vw] space-x-[60vw]'>
             <div className='text-center space-x-1'>
-           
-        <span className='text-orange-200'>S</span><span>P</span><span className='text-orange-200'>A</span><span>C</span><span>E</span><span>D</span>
-       
-                
+                <span className='text-gray-500'>S</span><span>P</span><span className='text-gray-500'>A</span><span>C</span><span>E</span><span>D</span>
             </div>
             <div className='hidden lg:block'>
             <div className='flex justify-center items-center space-x-6 text-gray-300 '>
@@ -40,11 +24,11 @@ const Navpage = () => {
                 </div>
             </div>
             </div>
-            <div className='flex-col lg:hidden block text-orange-200'>
+            <div className='flex-col lg:hidden block'>
                 ...
             </div>
             
-      </motion.div>
+      </div>
     </div>
   )
 }
