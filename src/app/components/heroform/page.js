@@ -1,20 +1,11 @@
 import React from 'react'
 import Buttonpage from '../button/page'
-import { motion } from "framer-motion"
+
 const Heroformpage = () => {
   return (
     <div>
-      <motion.div className="flex items-center justify-center lg:space-x-32 space-y-1 lg:flex-row flex-col"
-      initial={{
-        opacity:0,
-      }}
-      transition={{
-        type:'spring',
-        stiffness:60
-      }}
-      whileInView={{
-        opacity:1
-      }}
+      <div className="flex items-center justify-center lg:space-x-32 space-y-1 lg:flex-row flex-col"
+
       >
         <div className='flex flex-col items-center'>
         <label htmlFor="date" className="text-white mb-3">Choose flight Date</label>
@@ -72,7 +63,7 @@ const Heroformpage = () => {
 
         
         
-      </motion.div>
+      </div>
       <div className='flex justify-center items-center mt-10'>
         <Buttonpage name="submit"></Buttonpage>
         </div>
