@@ -3,6 +3,8 @@ import Navpage from '../navbaar/page'
 import Heroformpage from '../heroform/page'
 import React, { useState, useEffect } from 'react';
 import { motion } from "framer-motion"
+import Herogalarypage from '../herogalary/page';
+import Aboutpage from '../aboutpage/page';
 
 const Heropage = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -44,7 +46,7 @@ const Heropage = () => {
         </div>
       ) : (
         <div>
-        <div className='h-[100vh] w-[99%] border-2 border-red-400 flex flex-col justify-center items-center '>
+        <div className='h-[100vh] w-[99%]  flex flex-col justify-center items-center '>
         {/* image */}
         <div className='w-[99%]'>
         <img src="bghero.jpg" alt="" className='absolute lg:w-[99%] w-[98%] lg:h-auto h-[80vh]  -mt-5 opacity-50 '/>
@@ -104,6 +106,14 @@ const Heropage = () => {
 
                 <div className='flex justify-center items-center mt-10'>
                   <Heroformpage></Heroformpage>
+                </div>
+
+                <div className='flex justify-center items-center mt-8'>
+                  <Herogalarypage></Herogalarypage>
+                </div>
+
+                <div className='lg:mt-52 flex justify-center item center'>
+                  <Aboutpage></Aboutpage>
                 </div>
 
             </div>
