@@ -3,7 +3,7 @@ import React from 'react'
 const Heroformpage = () => {
   return (
     <div>
-      write the form codes here 
+      write your form here
     </div>
   )
 }
