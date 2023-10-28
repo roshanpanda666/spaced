@@ -3,10 +3,10 @@ import Navpage from '../navbaar/page'
 import Heroformpage from '../heroform/page'
 import React, { useState, useEffect } from 'react';
 import { motion } from "framer-motion"
-import { useGlitch } from 'react-powerglitch'
+
 const Heropage = () => {
   const [isLoading, setIsLoading] = useState(true);
-  const glitch = useGlitch();
+
  
   useEffect(() => {
     // Simulate a delay of 3 seconds before showing the main content
