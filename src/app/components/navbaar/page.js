@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import Buttonpage from '../button/page'
-import { motion } from 'framer-motion'
+
 const Navpage = () => {
     const[befortap,aftertap]=useState(false)
     function tapnav(){
@@ -39,21 +39,7 @@ const Navpage = () => {
             <div className='flex-col lg:hidden'>
 
                 
-                <motion.div className='flex flex-col justify-center items-center text-white -ml-72 -mt-7 space-y-5 border-2 border-orange-200 w-72  h-44 lg:hidden'onClick={tapnav}
-                initial={{
-                    scaleX:0,
-                    scaleY:0,
-               
-                }}
-                transition={{
-                    type:"spring",
-                    stiffness:200
-                }}
-                whileInView={{
-                    scaleX:1,
-                    scaleY:1,
-                   
-                }}
+                <div className='flex flex-col justify-center items-center text-white -ml-72 -mt-7 space-y-5 border-2 border-orange-200 w-72  h-44 lg:hidden'onClick={tapnav}
                 >
                     <div>
                         about
@@ -67,7 +53,7 @@ const Navpage = () => {
                     <div className='text-white text-[20px]'>
                         <Buttonpage name="book now"></Buttonpage>
                     </div>
-                </motion.div>
+                </div>
 
                 </div>
             </div>
