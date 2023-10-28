@@ -8,7 +8,7 @@ const Heropage = () => {
       <div className='h-[100vh] w-[99%] border-2 border-red-400 flex flex-col justify-center items-center '>
         {/* image */}
         <div className='w-[99%]'>
-        <img src="bghero.jpg" alt="" className='absolute lg:w-[99%] w-[98%] -mt-5 opacity-50 '/>
+        <img src="bghero.jpg" alt="" className='absolute lg:w-[99%] w-[98%] lg:h-auto h-[80vh]  -mt-5 opacity-50 '/>
         </div>
         
         <div className='flex justify-center items-center relative flex-col'>
@@ -17,13 +17,13 @@ const Heropage = () => {
                     <Navpage></Navpage>
                 </div>
                 <div className='flex justify-center items-center flex-col lg:mt-32'>
-                    <div className='font-bold lg:text-3xl text-[20px] font-mono text-white'>
+                    <div className='font-bold lg:text-3xl text-[20px] font-mono lg:mt-0 mt-32  text-white'>
                         To space.and back.
                     </div>
-                    <div className='font-extrabold lg:text-[170px] text-[60px]  text-orange-200'>
+                    <div className='font-extrabold lg:text-[170px] text-[100px]  text-orange-200'>
                         Safely
                     </div>
-                    <div className='text-center font-mono lg:text-[15px] text-[5px] text-gray-300'>
+                    <div className='text-center font-mono lg:text-[15px] text-[15px] text-gray-300'>
                         ever wanted to visit marse,jupiter or pluton<br></br>
                         with us you can do everything
                     </div>
