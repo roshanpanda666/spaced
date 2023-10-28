@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+/* styles.css */
+/* Customize the scrollbar */
+/* For Webkit browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #868686;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c9b76e;
+}
+
+
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,4 +42,6 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+
+  
 }
