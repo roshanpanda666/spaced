@@ -1,12 +1,43 @@
 import React from 'react'
-
+import { motion } from 'framer-motion'
 const Buttonpage = (props) => {
   return (
     <div>
       <div>
-        <button className=' h-10 w-32 border-t-[1px] border-t-orange-200 border-b-orange-200 border-b-[1px]'>
+        <div className='flex space-x-12'>
+        <motion.div className='w-7 border-[1.5px]'
+        whileInView={{
+          rotateY:380
+        }}
+        ></motion.div>
+        <motion.div className='w-7 border-[1.5px]'
+        whileInView={{
+          rotateY:380
+        }}
+        ></motion.div>
+        </div>
+        <motion.button className=' h-10 w-[104px] border-t-[1px] border-t-orange-200 border-b-orange-200 border-b-[1px] '
+        whileHover={{
+          rotateY:380
+        }}
+        whileTap={{
+          scaleX:0.8
+        }}
+        >
           {props.name}
-        </button >
+        </motion.button >
+        <div className='flex space-x-12'>
+        <motion.div className='w-7 border-[1.5px]'
+        whileInView={{
+          rotateY:380
+        }}
+        ></motion.div>
+        <motion.div className='w-7 border-[1.5px]'
+        whileInView={{
+          rotateY:380
+        }}
+        ></motion.div>
+        </div>
       
       </div>
     </div>

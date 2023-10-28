@@ -56,7 +56,7 @@ const Heropage = () => {
                     <Navpage></Navpage>
                 </div>
                 <div className='flex justify-center items-center flex-col lg:mt-32'>
-                    <motion.div className='font-bold lg:text-3xl text-[20px] font-mono lg:mt-0 mt-32  text-white'
+                    <motion.div className='font-bold lg:text-3xl text-[20px] font-mono lg:mt-0 mt-32  text-white z-auto'
                     initial={{
                       opacity: 0,
                     }}
