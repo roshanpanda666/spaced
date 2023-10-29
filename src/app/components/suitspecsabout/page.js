@@ -16,7 +16,7 @@ const Suitspecabout = () => {
               <div className='text-white font-mono text-[2rem] lg:text-[3rem] font-extrabold'>
                 Let us gain
               </div>
-              <div className='text-white font-mono text-[2rem] lg:text-[3rem] -mt-5 font-extrabold'>
+              <div className='text-white font-mono text-[2rem] lg:text-[3rem] lg:-mt-5 font-extrabold'>
                 Your Trust
               </div>
               <div className='text-gray-300 font-mono text-[0.5rem] lg:text-[0.8rem]'>
@@ -42,7 +42,7 @@ const Suitspecabout = () => {
                       NO 1  
                     </div>
                     <div className='text-orange-200 font-mono text-[0.8rem]'>
-                      in world
+                      all over the world
 
                     </div>
                 </div>
@@ -62,7 +62,7 @@ const Suitspecabout = () => {
                 <div className='text-white font-mono text-[0.8rem]'>
                   Top quality Resources From Brand Like
                 </div>
-                <div className='flex lg:space-x-10'>
+                <div className='flex lg:space-x-10 justify-center items-center'>
                 <div className='mt-[2rem] flex lg:scale-100 scale-50'>
                   <Buttonpage name='nike'></Buttonpage>
                 </div>
