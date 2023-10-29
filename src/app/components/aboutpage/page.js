@@ -12,7 +12,7 @@ const Aboutpage = () => {
                 
                 />
             </div>
-            <div className='flex-col flex space-y-3 text-[8px] lg:text-[1rem]'>
+            <div className='flex-col flex space-y-3 text-[8px] lg:text-[1rem] lg:-ml-10'>
             <motion.div className=' relative lg:ml-1 mt-16 text-white font-mono'
             initial={{
                 opacity:0,
@@ -90,7 +90,7 @@ const Aboutpage = () => {
                 x:1
             }}
             >
-              <span className='text-white'>-------</span> nano carbon fiber 
+              <span className='text-white'>-------</span> carbon nano tubes
             </motion.div>
             
             
@@ -107,7 +107,7 @@ const Aboutpage = () => {
                 x:1
             }}
             >
-               <span className='text-white'>------------</span> life support 
+               <span className='text-white'>------------</span> comfort 
             </motion.div>
             
             <motion.div className=' relative lg:ml-1 mt-16 text-white font-mono'
@@ -138,7 +138,7 @@ const Aboutpage = () => {
                 x:1
             }}
             >
-              <span className='text-white'>------</span>  artificial muscles 
+              <span className='text-white'>------</span>  safe landing
             </motion.div>
             </div>
            

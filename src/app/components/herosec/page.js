@@ -5,6 +5,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from "framer-motion"
 import Herogalarypage from '../herogalary/page';
 import Aboutpage from '../aboutpage/page';
+import Suitspecabout from '../suitspecsabout/page';
 
 const Heropage = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -114,6 +115,10 @@ const Heropage = () => {
 
                 <div className='lg:mt-52 flex justify-center item center'>
                   <Aboutpage></Aboutpage>
+                </div>
+
+                <div className='flex justify-center item-center'>
+                  <Suitspecabout></Suitspecabout>
                 </div>
 
             </div>
