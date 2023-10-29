@@ -6,6 +6,8 @@ import { motion } from "framer-motion"
 import Herogalarypage from '../herogalary/page';
 import Aboutpage from '../aboutpage/page';
 import Suitspecabout from '../suitspecsabout/page';
+import Secondabout from '../aboutsec2/page';
+import Commentsabout from '../testimonials/page';
 
 const Heropage = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -120,6 +122,15 @@ const Heropage = () => {
                 <div className='flex justify-center item-center'>
                   <Suitspecabout></Suitspecabout>
                 </div>
+
+                <div className='flex justify-center item-center'>
+                  <Secondabout></Secondabout>
+                </div>
+
+                <div className='flex justify-center item-center'>
+                  <Commentsabout></Commentsabout>
+                </div>
+
 
             </div>
             

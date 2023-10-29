@@ -1,13 +1,23 @@
+"use client"
 import React from 'react'
 import Buttonpage from '../button/page'
-
+import { motion } from "framer-motion"
 const Suitspecabout = () => {
   return (
     <div>
       <div className='flex justify-center items-center lg:space-x-10 mt-44 lg:space-y-0 space-y-8 lg:flex-row flex-col'>
 
           <div className='lg:h-[80vh] h-[50vh] lg:w-[35vw] w-[80vw] lg:mt-0 mt-8'>
-            <img src="starmanwithd.jpg" alt="" className='opacity-70'/>
+            <motion.img src="starmanwithd.jpg" alt="" className='opacity-70'
+            initial={{
+              opacity:0,
+              scale:0
+          }}
+          whileInView={{
+              opacity:1,
+              scale:1
+          }}
+            />
           </div>
           <div className='lg:h-[80vh] h-[50vh] lg:w-[35vw] w-[80vw] flex-col flex lg:text-start text-center'>
               <div className='font-mono text-orange-200 lg:text-[1.3rem] text-[0.7rem]'>
@@ -62,7 +72,7 @@ const Suitspecabout = () => {
                 <div className='text-white font-mono text-[0.8rem]'>
                   Top quality Resources From Brand Like
                 </div>
-                <div className='flex lg:space-x-10 justify-center items-center'>
+                <div className='flex lg:space-x-10 justify-center items-center lg:justify-start lg:items-start'>
                 <div className='mt-[2rem] flex lg:scale-100 scale-50'>
                   <Buttonpage name='nike'></Buttonpage>
                 </div>
