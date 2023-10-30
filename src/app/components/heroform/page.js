@@ -10,7 +10,7 @@ const Heroformpage = () => {
       >
         <div className='flex flex-col items-center'>
         <label htmlFor="date" className="text-white mb-3">Choose flight Date</label>
-        <select id="date" name="date" className="border-[1.5px] border-gray-300 bg-transparent  shadow-sm py-2 px-4 text-gray-200 focus:outline-none focus:ring-2 focus:ring-orange-200">
+        <select id="date" name="date" className="border-[1.5px] border-gray-300 bg-transparent  shadow-sm py-2 px-4 text-gray-200 focus:outline-none focus:ring-2 focus:ring-orange-200 lg:w-40 w-[80vw]">
           
           <option value="2023-10-29">October 29, 2023</option>
           <option value="2023-10-30">October 30, 2023</option>
@@ -24,7 +24,7 @@ const Heroformpage = () => {
 
         <div className='flex flex-col items-center'>
         <label htmlFor="date" className="text-white mb-3">To</label>
-        <select id="date" name="date" className="border-[1.5px] border-gray-300 bg-transparent  shadow-sm py-2 px-4 text-gray-200 focus:outline-none focus:ring-2 focus:ring-orange-200">
+        <select id="date" name="date" className="border-[1.5px] border-gray-300 bg-transparent  shadow-sm py-2 px-4 text-gray-200 focus:outline-none focus:ring-2 focus:ring-orange-200 lg:w-40 w-[80vw]">
           
           <option value="2023-10-29">marse base 2</option>
           <option value="2023-10-30">moon base 6</option>
@@ -38,7 +38,7 @@ const Heroformpage = () => {
 
         <div className='flex flex-col items-center'>
         <label htmlFor="date" className="text-white mb-3">From</label>
-        <select id="date" name="date" className="border-[1.5px] border-gray-300 bg-transparent  shadow-sm py-2 px-4 text-gray-200 focus:outline-none focus:ring-2 focus:ring-orange-200">
+        <select id="date" name="date" className="border-[1.5px] border-gray-300 bg-transparent  shadow-sm py-2 px-4 text-gray-200 focus:outline-none focus:ring-2 focus:ring-orange-200 lg:w-40 w-[80vw]">
           
           <option className='bg-transparent text-orange' value="2023-10-29">E-12</option>
           <option value="2023-10-30">E-16</option>
@@ -51,7 +51,7 @@ const Heroformpage = () => {
 
         <div className='flex flex-col items-center'>
         <label htmlFor="date" className="text-white mb-3">passengers</label>
-        <select id="date" name="date" className="border-[1.5px] border-gray-300 bg-transparent py-2 px-4 text-gray-200">
+        <select id="date" name="date" className="border-[1.5px] border-gray-300 bg-transparent py-2 px-4 text-gray-200 lg:w-40 w-[80vw]">
         
           <option>1</option>
           <option>2</option>

@@ -8,8 +8,8 @@ const Commentsabout = () => {
     <div>
       <div className='flex justify-center items-center lg:space-x-10 mt-44 lg:space-y-0 space-y-8 lg:flex-row flex-col'>
 
-      <div className='lg:h-[80vh] h-[50vh] lg:w-[35vw] w-[80vw] lg:-mt-0 '>
-            <motion.img src="room3.jpg" alt="" className='opacity-90 absolute z-50 lg:w-[30vw] w-[70vw]'
+      <div className='lg:h-[80vh] h-[40vh] lg:w-[35vw] w-[80vw] lg:-mt-0 '>
+            <motion.img src="spaceman1.jpg" alt="" className='opacity-90 absolute z-50 lg:w-[30vw] w-[70vw]'
             initial={{
                 opacity:0,
                 scale:0
@@ -22,7 +22,7 @@ const Commentsabout = () => {
                 scale:1
             }}
             />
-            <motion.img src="building.jpg" alt="" className='opacity-70 relative lg:mt-52 mt-24 lg:ml-8 ml-5'
+            <motion.img src="spacexjpg.jpg" alt="" className='opacity-70 relative lg:mt-52 mt-24 lg:ml-8 ml-5'
             initial={{
                 opacity:0,
                 scale:0
@@ -56,13 +56,23 @@ const Commentsabout = () => {
 
               <div className='flex mt-12 flex-col'>  
                 
-                <div className='flex lg:space-x-10 justify-center items-center lg:justify-start lg:items-start'>
-                <div className='mt-[2rem] flex lg:scale-200 scale-100'>
-                  <Buttonpage name='Elon musk'></Buttonpage>
+                <div className='flex lg:space-x-10 justify-center items-center lg:justify-start lg:items-start space-x-5'>
+                <div className='lg:mt-[2rem] flex lg:scale-200 scale-100'>
+                  <Buttonpage name='Elon chaha'></Buttonpage>
+                </div>
+
+                <div className='lg:mt-[2rem] flex lg:scale-200 scale-100'>
+                  <Buttonpage name='jeffu'></Buttonpage>
+                </div>
+
+                <div className='lg:mt-[2rem] flex lg:scale-200 scale-100'>
+                  <Buttonpage name='zukkku'></Buttonpage>
                 </div>
                 </div>
                 
               </div>
+
+              
           </div>
 
          

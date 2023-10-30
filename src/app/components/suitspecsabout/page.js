@@ -7,7 +7,7 @@ const Suitspecabout = () => {
     <div>
       <div className='flex justify-center items-center lg:space-x-10 mt-44 lg:space-y-0 space-y-8 lg:flex-row flex-col'>
 
-          <div className='lg:h-[80vh] h-[50vh] lg:w-[35vw] w-[80vw] lg:mt-0 mt-8'>
+          <div className='lg:h-[80vh] h-[40vh] lg:w-[35vw] w-[80vw] lg:mt-0 mt-8'>
             <motion.img src="starmanwithd.jpg" alt="" className='opacity-70'
             initial={{
               opacity:0,
@@ -19,7 +19,7 @@ const Suitspecabout = () => {
           }}
             />
           </div>
-          <div className='lg:h-[80vh] h-[50vh] lg:w-[35vw] w-[80vw] flex-col flex lg:text-start text-center'>
+          <div className='lg:h-[80vh] h-[40vh] lg:w-[35vw] w-[80vw] flex-col flex lg:text-start text-center'>
               <div className='font-mono text-orange-200 lg:text-[1.3rem] text-[0.7rem]'>
                 Don't know who we are ?
               </div>

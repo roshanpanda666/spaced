@@ -8,9 +8,9 @@ const Secondabout = () => {
     <div>
       <div className='flex justify-center items-center lg:space-x-10 mt-44 lg:space-y-0 space-y-8 lg:flex-row flex-col'>
 
-          <div className='lg:h-[80vh] h-[50vh] lg:w-[35vw] w-[80vw] flex-col flex lg:text-start text-center'>
+          <div className='lg:h-[80vh] h-[40vh] lg:w-[35vw] w-[80vw] flex-col flex lg:text-start text-center'>
               <div className='font-mono text-orange-200 lg:text-[1.3rem] text-[0.7rem]'>
-                Futures we offer
+                features we offer
               </div>
               <div className='text-white font-mono text-[2rem] lg:text-[3rem] font-extrabold'>
                 Hotel Booking And
@@ -38,7 +38,7 @@ const Secondabout = () => {
               </div>
           </div>
 
-          <div className='lg:h-[80vh] h-[50vh] lg:w-[35vw] w-[80vw] lg:-mt-0 -mt-[20rem]'>
+          <div className='lg:h-[80vh] h-[30vh] lg:w-[35vw] w-[80vw] lg:-mt-0 -mt-[20rem]'>
             <motion.img src="room3.jpg" alt="" className='opacity-90 absolute z-50 lg:w-[30vw] w-[70vw]'
             initial={{
                 opacity:0,
